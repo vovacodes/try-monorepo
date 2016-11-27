@@ -1,0 +1,13 @@
+{
+  "name": "@wizardzloy/grid",
+  "version": "0.0.1",
+  "main": "lib/index",
+  "module": "es/index",
+  "scripts": {
+    "clean": "sh ../../scripts/clean.sh",
+    "compile:commonjs": "sh ../../scripts/compileCommonjs.sh",
+    "compile:es": "sh ../../scripts/compileEs.sh",
+    "compile": "npm run compile:commonjs && npm run compile:es",
+    "build": "npm run clean && npm run compile"
+  }
+}
