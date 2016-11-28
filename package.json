@@ -10,7 +10,7 @@
     "build": "lerna run build",
     "release:bump": "lerna-semantic-release pre",
     "release:changelog": "lerna-semantic-release post && git add packages/**/CHANGELOG.md && git commit -anm 'chore(release): Update CHANGELOG files'",
-    "release:publish": "lerna-semantic-release perform && git push origin master --tags",
+    "release:publish": "lerna-semantic-release perform",
     "release": "npm run release:bump && npm run release:changelog && npm run release:publish"
   },
   "devDependencies": {
