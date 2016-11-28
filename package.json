@@ -1,8 +1,8 @@
 {
-  "name": "try-lerna",
+  "name": "try-monorepo",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/wizardzloy/try-lerna.git",
+  "repository": "https://github.com/wizardzloy/try-monorepo.git",
   "author": "Vladimir Guguiev <wizardzloy@gmail.com>",
   "license": "MIT",
   "scripts": {
