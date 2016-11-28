@@ -1,6 +1,10 @@
 {
   "name": "@wizardzloy/grid",
   "version": "0.0.1",
+  "files": [
+    "es",
+    "lib"
+  ],
   "main": "lib/index",
   "module": "es/index",
   "scripts": {
