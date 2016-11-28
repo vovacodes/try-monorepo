@@ -1,13 +1,14 @@
 {
   "name": "try-monorepo",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "repository": "https://github.com/wizardzloy/try-monorepo.git",
   "author": "Vladimir Guguiev <wizardzloy@gmail.com>",
   "license": "MIT",
   "scripts": {
     "commit": "git-cz",
-    "build": "lerna run build"
+    "build": "lerna run build",
+    "release": "lerna-semantic-release pre && lerna-semantic-release post"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",
@@ -16,6 +17,7 @@
     "commitizen": "^2.8.6",
     "cz-lerna-changelog": "^0.3.0",
     "lerna": "2.0.0-beta.30",
+    "lerna-semantic-release": "^8.0.2",
     "rimraf": "^2.5.4"
   },
   "config": {
