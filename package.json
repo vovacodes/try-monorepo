@@ -8,10 +8,13 @@
   "scripts": {
     "commit": "git-cz",
     "build": "lerna run build",
+    "release:verify-branch": "git rev-parse --abbrev-ref HEAD | grep -Fxq 'master'",
     "release:bump": "lerna-semantic-release pre",
-    "release:changelog": "lerna-semantic-release post && git add packages/**/CHANGELOG.md && git commit -anm 'chore(release): Update CHANGELOG files'",
+    "release:changelog:generate": "lerna-semantic-release post",
+    "release:changelog:commit": "git add packages/**/CHANGELOG.md && (git commit -nm 'chore(release): Update CHANGELOG files' || echo 'No updates in CHANGELOG files')",
+    "release:changelog": "npm run release:changelog:generate && npm run release:changelog:commit",
     "release:publish": "lerna-semantic-release perform",
-    "release": "npm run release:bump && npm run release:changelog && npm run release:publish"
+    "release": "npm run release:verify-branch && npm run release:bump && npm run release:changelog && npm run release:publish"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",
