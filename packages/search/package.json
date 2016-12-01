@@ -15,6 +15,6 @@
     "build": "npm run clean && npm run compile"
   },
   "dependencies": {
-    "@wizardzloy/grid": "^0.0.1"
+    "wzrdzl-grid": "^0.0.1"
   }
 }
