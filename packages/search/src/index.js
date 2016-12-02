@@ -1,4 +1,4 @@
-import Grid from '@wizardzloy/grid';
+import Grid from 'wzrd-grid';
 
 class Search {
     constructor() {

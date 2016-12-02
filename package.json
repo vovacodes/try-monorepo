@@ -7,14 +7,16 @@
   "license": "MIT",
   "scripts": {
     "commit": "git-cz",
+    "bootstrap": "lerna bootstrap && lerna run prepublishOnly",
     "build": "lerna run build",
-    "pre-release:verify-branch": "git rev-parse --abbrev-ref HEAD | grep -Fxq 'master'",
-    "pre-release:bump": "lerna-semantic-release pre",
-    "pre-release:changelog:generate": "lerna-semantic-release post",
-    "pre-release:changelog:commit": "git add packages/**/CHANGELOG.md && (git commit -nm 'chore(release): Update CHANGELOG files' || echo 'No updates in CHANGELOG files')",
-    "pre-release:changelog": "npm run pre-release:changelog:generate && npm run pre-release:changelog:commit",
-    "pre-release:done-msg": "echo '\\033[96mPlease make sure the updated versions and tags are correct, then execute \\033[95m\"npm run release\"\\033[96m to publish new versions to npm and push to origin\\033[0m'",
+    "test": "lerna run test",
     "pre-release": "npm run pre-release:verify-branch && npm run pre-release:bump && npm run pre-release:changelog && npm run pre-release:done-msg",
+      "pre-release:verify-branch": "git rev-parse --abbrev-ref HEAD | grep -Fxq 'master'",
+      "pre-release:bump": "lerna-semantic-release pre",
+      "pre-release:changelog": "npm run pre-release:changelog:generate && npm run pre-release:changelog:commit",
+        "pre-release:changelog:generate": "lerna-semantic-release post",
+        "pre-release:changelog:commit": "git add packages/**/CHANGELOG.md && (git commit -nm 'chore(release): Update CHANGELOG files' || echo 'No updates in CHANGELOG files')",
+      "pre-release:done-msg": "echo '\\033[96mPlease make sure the updated versions and tags are correct, then execute \\033[95m\"npm run release\"\\033[96m to publish new versions to npm and push to origin\\033[0m'",
     "release": "lerna-semantic-release perform"
   },
   "devDependencies": {
@@ -25,7 +27,8 @@
     "cz-lerna-changelog": "^0.3.0",
     "lerna": "2.0.0-beta.30",
     "lerna-semantic-release": "^8.0.2",
-    "rimraf": "^2.5.4"
+    "rimraf": "^2.5.4",
+    "tape": "^4.6.3"
   },
   "config": {
     "commitizen": {
