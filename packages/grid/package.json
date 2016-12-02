@@ -1,6 +1,6 @@
 {
   "name": "wzrd-grid",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "files": [
     "es",
     "lib"
@@ -12,8 +12,8 @@
     "build": "npm run clean && npm run compile",
     "test": "sh ../../scripts/test.sh",
     "compile": "npm run compile:commonjs && npm run compile:es",
-      "compile:commonjs": "sh ../../scripts/compileCommonjs.sh",
-      "compile:es": "sh ../../scripts/compileEs.sh",
+    "compile:commonjs": "sh ../../scripts/compileCommonjs.sh",
+    "compile:es": "sh ../../scripts/compileEs.sh",
     "prepublishOnly": "npm run build"
   }
 }
