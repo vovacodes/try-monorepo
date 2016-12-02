@@ -6,6 +6,10 @@ class Search {
 
         console.log('Search is created');
     }
+
+    getComponentName() {
+        return 'Search';
+    }
 }
 
 export default Search;
