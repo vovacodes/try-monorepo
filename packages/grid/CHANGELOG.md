@@ -1,5 +1,15 @@
-<a name="1.5.0"></a>
-# 1.5.0 (2016-12-05)
+<a name="1.6.0"></a>
+# 1.6.0 (2016-12-05)
+
+
+
+<a name="wzrd-grid@1.6.0"></a>
+# wzrd-grid@1.6.0 (2016-12-05)
+
+
+### Features
+
+* **Grid:** update render again ([c270193](https://github.com/wizardzloy/try-monorepo/commit/c270193))
 
 
 
