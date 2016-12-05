@@ -17,7 +17,7 @@
         "pre-release:changelog:generate": "lerna-semantic-release post",
         "pre-release:changelog:commit": "git add packages/**/CHANGELOG.md && (git commit -nm 'chore(release): Update CHANGELOG files' || echo 'No updates in CHANGELOG files')",
       "pre-release:done-msg": "echo '\\033[96mPlease make sure the updated versions and tags are correct, then execute \\033[95m\"npm run release\"\\033[96m to publish new versions to npm and push to origin\\033[0m'",
-    "release": "lerna-semantic-release perform"
+    "release": "npm run build && lerna-semantic-release perform"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",

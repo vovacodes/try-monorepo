@@ -13,7 +13,6 @@
     "test": "sh ../../scripts/test.sh",
     "compile": "npm run compile:commonjs && npm run compile:es",
     "compile:commonjs": "sh ../../scripts/compileCommonjs.sh",
-    "compile:es": "sh ../../scripts/compileEs.sh",
-    "prepublishOnly": "npm run build"
+    "compile:es": "sh ../../scripts/compileEs.sh"
   }
 }
