@@ -1,5 +1,16 @@
-<a name="1.0.0"></a>
-# 1.0.0 (2016-12-02)
+<a name="1.1.0"></a>
+# 1.1.0 (2016-12-05)
+
+
+
+<a name="wzrd-grid@1.1.0"></a>
+# wzrd-grid@1.1.0 (2016-12-05)
+
+
+### Features
+
+* **components:** add "getComponentName" method ([2c0e16c](https://github.com/wizardzloy/try-monorepo/commit/2c0e16c))
+* **render:** add "render" method to components ([1bac095](https://github.com/wizardzloy/try-monorepo/commit/1bac095))
 
 
 
