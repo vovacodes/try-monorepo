@@ -1,5 +1,15 @@
-<a name="1.2.0"></a>
-# 1.2.0 (2016-12-05)
+<a name="1.3.0"></a>
+# 1.3.0 (2016-12-05)
+
+
+
+<a name="wzrd-grid@1.3.0"></a>
+# wzrd-grid@1.3.0 (2016-12-05)
+
+
+### Features
+
+* **Grid:** modify render method of Grid... again ([d6fae82](https://github.com/wizardzloy/try-monorepo/commit/d6fae82))
 
 
 
