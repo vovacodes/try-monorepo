@@ -10,6 +10,10 @@ class Search {
     getComponentName() {
         return 'Search';
     }
+
+    render() {
+        return `Search:\n ${this.grid.render()}`;
+    }
 }
 
 export default Search;

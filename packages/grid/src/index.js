@@ -6,6 +6,10 @@ class Grid {
     getComponentName() {
         return 'Grid';
     }
+
+    render() {
+        return '|-----------|-----------|';
+    }
 }
 
 export default Grid;
