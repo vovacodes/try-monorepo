@@ -8,7 +8,7 @@ class Grid {
     }
 
     render() {
-        return '|----|---- GRID 2 ----|----|';
+        return '|----|----|----|----|';
     }
 }
 
