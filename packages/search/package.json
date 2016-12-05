@@ -1,6 +1,6 @@
 {
   "name": "wzrd-search",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "files": [
     "es",
     "lib"
@@ -17,6 +17,6 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "wzrd-grid": "^0.0.1"
+    "wzrd-grid": "^1.1.0"
   }
 }
