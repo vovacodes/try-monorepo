@@ -1,5 +1,15 @@
-<a name="1.3.0"></a>
-# 1.3.0 (2016-12-05)
+<a name="1.4.0"></a>
+# 1.4.0 (2016-12-05)
+
+
+
+<a name="wzrd-grid@1.4.0"></a>
+# wzrd-grid@1.4.0 (2016-12-05)
+
+
+### Features
+
+* **Grid:** again ([3c285c5](https://github.com/wizardzloy/try-monorepo/commit/3c285c5))
 
 
 
