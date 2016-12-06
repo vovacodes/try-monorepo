@@ -1,5 +1,15 @@
-<a name="1.6.0"></a>
-# 1.6.0 (2016-12-06)
+<a name="1.7.0"></a>
+# 1.7.0 (2016-12-06)
+
+
+
+<a name="wzrd-grid@1.7.0"></a>
+# wzrd-grid@1.7.0 (2016-12-06)
+
+
+### Features
+
+* **components:** add "render" in Sidebar ([bae33c8](https://github.com/wizardzloy/try-monorepo/commit/bae33c8))
 
 
 
