@@ -1,0 +1,18 @@
+{
+  "name": "wzrd-sidebar",
+  "version": "0.0.1",
+  "files": [
+    "es",
+    "lib"
+  ],
+  "main": "lib/index",
+  "module": "es/index",
+  "scripts": {
+    "clean": "sh ../../scripts/clean.sh",
+    "build": "npm run clean && npm run compile",
+    "test": "sh ../../scripts/test.sh",
+    "compile": "npm run compile:commonjs && npm run compile:es",
+    "compile:commonjs": "sh ../../scripts/compileCommonjs.sh",
+    "compile:es": "sh ../../scripts/compileEs.sh"
+  }
+}
