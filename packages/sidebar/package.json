@@ -1,6 +1,6 @@
 {
   "name": "wzrd-sidebar",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "files": [
     "es",
     "lib"
@@ -16,6 +16,6 @@
     "compile:es": "sh ../../scripts/compileEs.sh"
   },
   "dependencies": {
-    "wzrd-grid": "^1.6.0"
+    "wzrd-grid": "^1.7.0"
   }
 }
