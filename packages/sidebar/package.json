@@ -14,5 +14,8 @@
     "compile": "npm run compile:commonjs && npm run compile:es",
     "compile:commonjs": "sh ../../scripts/compileCommonjs.sh",
     "compile:es": "sh ../../scripts/compileEs.sh"
+  },
+  "dependencies": {
+    "wzrd-grid": "^1.6.0"
   }
 }
