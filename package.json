@@ -9,6 +9,7 @@
     "init-package": "node scripts/initPackage",
     "commit": "git-cz",
     "bootstrap": "lerna bootstrap",
+    "clean-bootstrap": "lerna clean",
     "build": "lerna run build",
     "test": "lerna run test",
     "pre-release": "npm run pre-release:verify-branch && npm run pre-release:bump && npm run pre-release:changelog && npm run pre-release:done-msg",
